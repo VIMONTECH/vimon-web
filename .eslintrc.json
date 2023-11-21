@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:testing-library/react",
+    "plugin:jest-dom/recommended",
+    "plugin:storybook/recommended",
+    "prettier"
+  ],
+  "plugins": ["simple-import-sort", "sonarjs", "prettier"],
+  "rules": {
+    "simple-import-sort/imports": 1,
+    "simple-import-sort/exports": 1
+  }
+}
