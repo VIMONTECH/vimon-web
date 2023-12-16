@@ -38,8 +38,8 @@ devDependencies:
     specifier: ^7.5.3
     version: 7.5.3(@types/react-dom@18.2.14)(@types/react@18.2.43)(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-links':
-    specifier: ^7.5.3
-    version: 7.5.3(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^7.6.5
+    version: 7.6.5(react@18.2.0)
   '@storybook/addon-onboarding':
     specifier: ^1.0.9
     version: 1.0.9(react-dom@18.2.0)(react@18.2.0)
@@ -3308,28 +3308,17 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/addon-links@7.5.3(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-NcigW0HX8AllZ/KJ4u1KMiK30QvjqtC+zApI6Yc3tTaa6+BldbLv06fEgHgMY0yC8R+Ly9mUN7S1HiU7LQ7Qxg==}
+  /@storybook/addon-links@7.6.5(react@18.2.0):
+    resolution: {integrity: sha512-Lx4Ng+iXt0YpIrKGr+nOZlpN9ypOoEDoP/7bZ6m7GXuVAkDm3JrRCBp7e2ZKSKcTxPdjPuO9HVKkIjtqjINlpw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     peerDependenciesMeta:
       react:
         optional: true
-      react-dom:
-        optional: true
     dependencies:
-      '@storybook/client-logger': 7.5.3
-      '@storybook/core-events': 7.5.3
-      '@storybook/csf': 0.1.1
+      '@storybook/csf': 0.1.2
       '@storybook/global': 5.0.0
-      '@storybook/manager-api': 7.5.3(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/preview-api': 7.5.3
-      '@storybook/router': 7.5.3(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/types': 7.5.3
-      prop-types: 15.8.1
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
       ts-dedent: 2.2.0
     dev: true
 
@@ -3820,6 +3809,12 @@ packages:
 
   /@storybook/csf@0.1.1:
     resolution: {integrity: sha512-4hE3AlNVxR60Wc5KSC68ASYzUobjPqtSKyhV6G+ge0FIXU55N5nTY7dXGRZHQGDBPq+XqchMkIdlkHPRs8nTHg==}
+    dependencies:
+      type-fest: 2.19.0
+    dev: true
+
+  /@storybook/csf@0.1.2:
+    resolution: {integrity: sha512-ePrvE/pS1vsKR9Xr+o+YwdqNgHUyXvg+1Xjx0h9LrVx7Zq4zNe06pd63F5EvzTbCbJsHj7GHr9tkiaqm7U8WRA==}
     dependencies:
       type-fest: 2.19.0
     dev: true
