@@ -48,7 +48,7 @@
     "tailwind-merge": "^1.14.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.4.3",
+    "@commitlint/cli": "^19.0.3",
     "@commitlint/config-conventional": "^18.4.0",
     "@storybook/addon-essentials": "^7.6.10",
     "@storybook/addon-interactions": "^7.5.3",
